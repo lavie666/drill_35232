@@ -1,0 +1,23 @@
+文字列の連結の際の半角スペース
+
+N = gets
+puts "Best_in#{N}"
+
+
+奇数のときはodd,偶数の時はevenという出力になるようにする
+
+N = gets.to_i
+if N % 2 == 1 || N == 1
+ puts "odd"
+else
+ puts "even"
+end
+
+
+山の高さを表す単位「合」は山の高さの 10 分の 1 を 1 単位として計算することにする。
+山の高さ N メートルと M 合目が与えられるので M 合目の高さは何メートルかを出力。
+
+
+N = gets.to_i
+M = gets.to_i
+puts (N / 10) * M
