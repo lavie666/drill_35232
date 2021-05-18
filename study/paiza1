@@ -21,3 +21,9 @@ end
 N = gets.to_i
 M = gets.to_i
 puts (N / 10) * M
+
+入力される数値が
+3 4
+みたいな場合の出力方法
+a, b = gets.chomp!.split(" ").map{|n| n.to_i}
+とすることで3と4を取り出すことができる
